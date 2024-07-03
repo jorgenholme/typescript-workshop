@@ -20,7 +20,9 @@ export const User = ({ name, email, phone }) => {
         }}
       >
         <span>{name}</span>
+
         <span>{email}</span>
+
         <button onClick={() => setShowDetails((prev) => !prev)}>
           Show details
         </button>
