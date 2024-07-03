@@ -1,6 +1,8 @@
 export const Details = ({ phone }) => {
+  if (!phone) return null;
+
   return (
-    <div>
+    <div style={{ marginBottom: "2rem", paddingLeft: "1rem" }}>
       <span>{phone}</span>
     </div>
   );
