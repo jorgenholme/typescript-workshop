@@ -1,5 +1,5 @@
 import "./App.css";
-import { UserList } from "./components/UserList.jsx";
+import { UserList } from "./components/UserList.js";
 
 function App() {
   return (
